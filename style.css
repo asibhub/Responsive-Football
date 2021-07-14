@@ -1,0 +1,81 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+.top-header{
+    height: 550px;
+    width: 100%;
+    background-color: #2D25A0;
+}
+.main-header{
+    display: flex;
+}
+.left-header{
+    height: 300px;
+    width: 30%;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+.left-header h1{
+    color: white;
+    font-size: 50px;
+}
+.left-header p a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #E02C6D,#E04D82);
+}
+.left-header p a:hover{
+    background-image: linear-gradient(to left, cyan,skyblue);
+    color: black;
+}
+.right-header{
+    height: 400px;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.right-header img{
+    height: 100%;
+    width: 100%;
+}
+.main-section{
+    width: 100%;
+    margin-top: 70px;
+}
+.main-content{
+    width: 80%;
+    margin: 0px auto;
+}
+.terms{
+    display: flex;
+    margin-bottom: 30px;
+}
+.players{
+    height: 500px;
+    width: 33%;
+    background-color: white;
+    margin-right: 2%;
+}
+.player{
+    height: 250px;
+    width: 90%;
+    margin: 17px 17px;
+}
+.players h1{
+    margin: 0px 17px;  
+}
+.players p{
+    margin: 5px 17px;  
+    text-align: justify;
+    color: gray;
+}
+
