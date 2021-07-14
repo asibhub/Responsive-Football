@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: lightgray;
+    background-color:whitesmoke;
 }
 .top-header{
     height: 550px;
@@ -64,6 +64,7 @@ body{
     width: 33%;
     background-color: white;
     margin-right: 2%;
+    box-shadow: 5px 5px 10px gray;
 }
 .player{
     height: 250px;
@@ -78,4 +79,76 @@ body{
     text-align: justify;
     color: gray;
 }
+.highlight{
+    margin-top: 100px;
+}
+.main-highlight{
+    width: 80%;
+    margin: 0px auto;
+    height: 650px;
+    display: flex;
+}
+.highlight-left{
+    height: 400px;
+    width: 40%;
+    margin-top: 100px;
+}
+.highlight-left h1{
+    font-size: 50px;
+}
+.highlight-left p{
+    color: gray;
+}
+.highlight-left p a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #E02C6D,#E04D82); 
+}
+.highlight-left p a:hover{
+    background-image: linear-gradient(to left, cyan,skyblue);
+    color: black;
+}
+.highlight-right{
+    height: 550px;
+    width: 54%;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.highlight-right img{
+    height: 100%;
+    width: 100%;
+}
+.main-footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
 
+}
+.footer-content{
+    height: 100%;
+    width: 30%;
+    margin: 0px auto;
+ 
+}
+.footer-content img{
+    height: 80px;
+    width: 80%;
+    margin-left: 30px;
+}
+.footer-content p a {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    padding: 5px 10px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.footer-content p{
+    text-align: center;
+}
+.footer-content p a:hover{
+    background-color: darkcyan;
+    color: white;
+    border-radius: 50%;
+}
