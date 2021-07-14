@@ -152,3 +152,64 @@ body{
     color: white;
     border-radius: 50%;
 }
+/* Media Querys */
+
+/* Mobile Divice */
+
+@media only screen and (max-width: 688px) {
+    .top-header{
+        width: 100%;
+        background-color: red;
+        height: auto;
+    }
+    .main-header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .left-header{
+        width: 100%;
+        margin: 0px;
+    }
+    .right-header{
+        width: 100%;
+        margin: 0px;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .terms{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players{
+        width: 100%;
+        height: auto;
+    }
+    .main-highlight{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        height: auto;
+    }
+    .highlight-left{
+        width: 100%;
+        margin:0px;
+    }
+    .highlight-right{
+        width: 100%;
+        margin: 0px;
+    }
+    .main-footer{
+        width: 100%;
+    }
+    .footer-content{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+}
